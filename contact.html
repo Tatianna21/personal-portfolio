@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--Name: Tatianna Hickson 
+	File Name: Template
+	Date: 1/10/2024-->
+<html lang="en">
+<head>
+	<title>Tatianna Hickson: Portfolio</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/styles.css">
+	<meta name="viewport" content="width=device-width, initial-scale= 1.0">
+</head>
+<body>
+
+	<div id="container">  
+	
+	<!--Mobile Nav-->
+	<nav class="mobile-nav">
+		<div id="menu-links">
+		<a href="index.html">Home</a>
+		<a href="education.html">Education</a>
+		<a href="about-me.html">About Me</a>
+		<a href="contact.html">Contact</a>
+	</div> 
+		<a class="menu-icon" onclick="hamburger()">
+		<div>&#9776;</div>
+		</a>
+	</nav>
+	<header>
+	<h1>Tatianna Hickson's Portfolio</h1>
+	<img src="images/Picture-of-me.jpg" alt="pic of me">
+	</header>
+	<!--Tablet, Desktop Nav-->
+	<nav class="tablet-desktop">
+	<nav>
+	<ul>
+		<li><a href="index.html">Home</li></a>
+		<li><a href="education.html">Education</li></a>
+		<li><a href="about-me.html">About Me</li></a>
+		<li><a href="contact.html">Contact</li></a>
+	</ul>
+	</div>
+	
+	</nav>
+	<main>
+		<div id="contact">
+			<h4>Email:<a href="mailto:Tatiannahickson@icloud.com" class="contact-email-link">Tatiannahickson@icloud.com</a></h4>
+			
+		<div id="form"> 
+			
+			 <h2>Complete the form below</h2>
+			<form class="form-grid"><!--start form-->
+				<fieldset>
+					<legend>Information</legend>
+					<label for="cname">Company Name</label>
+					<input type="text" id="cname" name="cname" required>
+					
+					<label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                        
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+						
+						<input type="submit" id="submit" value="Submit" class="btn">
+			</form>
+	</main>
+	<footer>
+	<div class="copyright">
+		<p>Email:<a href="mailto:Tatiannahickson@icloud.com" class="contact-email-link">Tatiannahickson@icloud.com</a></p>
+		<p>&copy; Copyright 2024. All Rights Reserved. 
+	</div>
+	</footer>
+	
+	<div class="social"> 
+		<a href="https://www.facebook.com/TatiannnaHickson" target="_blank"><img src="images/Facebook-Logo.png" alt="Facebook Logo"></a>
+		<a href="https://www.instagram.com/Tati_so_cool" target="_blank"><img src="images/Instagram-logo.png" alt="Instagram Logo"></a>
+		<a href="https://www.LinkedIn.com" target="_blank"><img src="images/Linkedin-logo.png" alt="LinkedIn Logo"></a>
+	</div> 
+	<script src="scripts/script.js"></script>
+</body>
+</html>
